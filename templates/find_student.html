@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查找学生</title>
+</head>
+<body>
+    <p align="center">填写信息以查找学生</p>
+    <form action="find_student" method="post">
+        {% csrf_token %}
+        {% for i in namelist %}
+            <p>{{ i }}:</p>
+            <input type="text" name="{{ i }}">
+        {% endfor %}
+        <br/><br/>
+        <input type="submit" value="提交">
+    </form>
+    <p>{{ notice }}</p>
+
+</body>
+</html>
