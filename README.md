@@ -7,6 +7,14 @@
 * MySQL：用于学生、班级、课程、选课表等表格型数据的管理，使用Django ORM对数据库进行增删改查操作；
 * Redis：用于统计各用户每天的登录和输入密码错误情况，限制多次登录失败用户当天的访问，防止暴力破解密码。
 * layui和X-admin：前端框架，用于接收后端的数据并渲染、向用户展示页面。
-666
+## 主要界面展示
 
-233
+![image](https://github.com/Suuuuuu96/StudentSystem/blob/main/img/p1.png)
+
+![image](https://github.com/Suuuuuu96/StudentSystem/blob/main/img/p2.png)
+
+![image](https://github.com/Suuuuuu96/StudentSystem/blob/main/img/p3.png)
+
+![image](https://github.com/Suuuuuu96/StudentSystem/blob/main/img/p4.png)
+
+![image](https://github.com/Suuuuuu96/StudentSystem/blob/main/img/p5.png)
